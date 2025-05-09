@@ -1,6 +1,8 @@
 from exceptions import PolynomialParseError, PolynomialTypeError, PolynomialDomainError
 from typing import Union
 
+__version__ = "1.0.0"
+
 Scalar = Union[int, float]
 
 class Polynomial:
