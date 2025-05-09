@@ -16,6 +16,6 @@ A minimal symbolic polynomial class for Python.
 No setup needed. Just drop `polynomial.py` and `exceptions.py` into your project.
 
 ```bash
-wget https://raw.githubusercontent.com/hkmrn/polynomial/main/polynomial.py
-wget https://raw.githubusercontent.com/hkmrn/polynomial/main/exceptions.py
+curl -O https://raw.githubusercontent.com/hkmrn/polynomial/main/polynomial.py
+curl -O https://raw.githubusercontent.com/hkmrn/polynomial/main/exceptions.py
 ```
