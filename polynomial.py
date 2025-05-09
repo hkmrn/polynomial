@@ -1,8 +1,6 @@
 from exceptions import PolynomialParseError, PolynomialTypeError, PolynomialDomainError
 from typing import Union
 
-__version__ = "1.0.0"
-
 Scalar = Union[int, float]
 
 class Polynomial:
@@ -12,7 +10,7 @@ class Polynomial:
 
     def __init__(self, *args: Scalar, var: str = "x") -> None:
         """
-        Initializes a polynomial from its coefficients.
+        Initialises a polynomial from its coefficients.
 
         Example: Polynomial(1, 0, -3) -> 1 - 3x^2
         Terms are in ascending order of powers.
