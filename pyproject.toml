@@ -1,0 +1,11 @@
+[project]
+name = "polynomial"
+version = "1.0.0"
+description = "Lightweight symbolic polynomial class"
+authors = [{name = "Hamza Kamran"}]
+license = "MIT"
+dependencies = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
